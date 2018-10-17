@@ -1,11 +1,11 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='bitski',
     version='0.0.1',
     description='A python SDK for accessing Bitski wallets',
     license='MIT',
-    packages=['bitski'],
+    packages=find_packages(),
     author='Patrick Tescher',
     author_email='patrick@bitski.com',
     keywords=['web3'],
