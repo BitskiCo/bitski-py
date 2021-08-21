@@ -1,3 +1,4 @@
+import pydantic
 from setuptools import setup, find_packages
 
 setup(
@@ -12,6 +13,9 @@ setup(
     url='https://github.com/BitskiCo/bitski-py',
     install_requires=[
         "oauth2-client",
-        "web3"
+        "web3",
+        "pydantic",
+        "httpx"
+        
     ]
 )
